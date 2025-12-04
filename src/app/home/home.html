@@ -1,0 +1,105 @@
+<!-- HERO SECTION WITH BACKGROUND IMAGE + BLUR -->
+<section class="text-white text-center d-flex align-items-center" style="
+    background-image: url('/pogi.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    position: relative;
+  ">
+
+    <div style="
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.55);
+      backdrop-filter: blur(6px);
+     backdrop-filter: blur(1px);
+    "></div>
+
+    <!-- CONTENT -->
+    <div class="container position-relative">
+        <h1 class="fw-bold display-4">Edward Angelo</h1>
+        <p class="lead mt-3">
+            Angular Portfolio – First, Midterm, and Final Semester Activities
+        </p>
+
+        <a routerLink="portfolio" class="btn btn-primary btn-lg mt-3">
+            View Portfolio
+        </a>
+    </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<section class="py-5">
+    <<div class="container">
+        <h2 class="fw-bold text-center mb-4">About Me</h2>
+        <p class="text-center mx-auto" style="max-width: 700px;">
+            Hi, I'm <strong>Edward Angelo</strong>. This portfolio showcases all my Angular
+            activities throughout the semester. It includes my progress in building components,
+            routing, services, API integrations, and UI design using Angular and Bootstrap.
+        </p>
+        </div>
+</section>
+
+<!-- OVERVIEW SECTION -->
+<section class="bg-light py-5">
+    <div class="container">
+        <h2 class="fw-bold text-center mb-4">What’s Inside</h2>
+
+        <div class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0 h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">First Semester</h5>
+                        <p class="card-text">
+                            Components, modules, data binding, and directives.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0 h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Midterm Activities</h5>
+                        <p class="card-text">
+                            Routing, navigation, services, simple CRUD, and forms.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow-sm border-0 h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Final Semester</h5>
+                        <p class="card-text">
+                            APIs, dependency injection, pipes, and advanced Angular concepts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CALL TO ACTION -->
+<section class="text-center py-5">
+    <div class="container">
+        <h2 class="fw-bold mb-3">Start Exploring</h2>
+        <p class="mb-4">
+            View all published activities and GitHub links in the compilation page.
+        </p>
+        <a routerLink="portfolio" class="btn btn-success btn-lg">
+            Go to Portfolio
+        </a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-3">
+    <small>
+        © 2025 • <strong>Edward Angelo</strong> • Angular Portfolio
+    </small>
+</footer>
