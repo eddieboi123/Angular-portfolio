@@ -1,0 +1,15 @@
+.contact-section {
+  min-height: 100vh;
+}
+
+.contact-card {
+  background: #ffffffcc;
+  backdrop-filter: blur(8px);
+  border-radius: 20px;
+}
+
+hr {
+  height: 3px;
+  border: none;
+  background: linear-gradient(to right, #007bff, #6610f2);
+}

@@ -1,0 +1,26 @@
+.about-container {
+  min-height: 100vh;
+}
+
+.about-img {
+  max-width: 80%;
+  border-radius: 20px;
+ 
+}
+
+.list-group-item {
+  background: transparent;
+  border: none;
+  font-size: 1.05rem;
+}
+
+hr {
+  height: 3px;
+  border: none;
+  background: linear-gradient(to right, #007bff, #6610f2);
+}
+
+img{
+    border: 1px solid;
+    border-radius: ;
+}
